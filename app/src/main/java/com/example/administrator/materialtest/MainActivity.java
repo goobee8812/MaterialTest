@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.backup:
-                Toast.makeText(this,"You Click Backup",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"You Click Backup",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.delete:
-                Toast.makeText(this,"You Click Delete",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"You Click Delete",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.settings:
-                Toast.makeText(this,"You Click Settings",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"You Click Settings",Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
